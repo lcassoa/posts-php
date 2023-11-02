@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    margin: 5em;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.image {
+    flex: 1; /* A imagem ocupa 1/2 do espaço disponível */
+    padding: 20px; /* Espaçamento opcional */
+}
+
+.image img {
+    max-width: 100%; /* Para garantir que a imagem não ultrapasse a largura da div */
+}
+
+.content {
+    flex: 1; /* O conteúdo ocupa 1/2 do espaço disponível */
+    padding: 20px; /* Espaçamento opcional */
+}
+
+.content p{
+    font-size: 1.5em;
+}
+
+
