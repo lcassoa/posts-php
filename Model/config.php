@@ -5,5 +5,4 @@
    $dbName = 'fiap_trabalho';
 
    $conexao = new mysqli($dbHost,$dbUserName,$dbPassWord,$dbName);
-
    ?>
